@@ -6,6 +6,7 @@ author = "朱韬"
 # Shown in the side menu
 copyright = "&copy; 2018 zhutao. All rights reserved."
 canonifyurls = true
+disablePathToLower = true
 paginate = 10
 
 [indexes]
