@@ -1,0 +1,54 @@
+theme = "blackburn"
+baseurl = "https://zhutao.github.io/"
+title = "随机漫步"
+author = "朱韬"
+# Shown in the side menu
+copyright = "&copy; 2018 zhutao. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  subtitle = "朱韬的个人博客"
+  brand = "随机漫步"
+  disqus = "朱韬"
+  highlightjs = "androidstudio"
+  highlightjs_extra_languages = ["yaml"]
+  dateFormat = "2006-06-02 15:04"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+  twitter = "zhutaoivy"
+  facebook = "zhutaoivy"
+  weibo = "1882555271"
+  youtube = "zhutaoivy"
+  github = "zhutao"
+  stackoverflow = "5782762"
+
