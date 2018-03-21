@@ -17,7 +17,7 @@ paginate = 10
   disqus = "朱韬"
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
-  dateFormat = "2006-06-02 15:04"
+  dateFormat = "2006-01-02 15:04:17"
 
 [menu]
   [[menu.main]]
