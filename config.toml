@@ -1,6 +1,7 @@
-theme = "blackburn"
 baseurl = "https://zhutao.github.io/"
+languageCode = "zh-cn"
 title = "随机漫步"
+theme = "blackburn"
 author = "朱韬"
 # Shown in the side menu
 copyright = "&copy; 2018 zhutao. All rights reserved."
@@ -16,7 +17,6 @@ paginate = 10
   brand = "随机漫步"
   disqus = "朱韬"
   highlightjs = "androidstudio"
-  highlightjs_extra_languages = ["yaml"]
   dateFormat = "2006-01-02 15:04:17"
 
 [menu]
